@@ -35,6 +35,6 @@ to compile it just run
     bash$ avra tm1637_demo.as (I am using Linux)
 
 ## Flashing an AVR chip
-I use an arduino board atmega2560 (but could be take any that supports ISP) for flashing AVR chips:
+I use an arduino board atmega2560 (but could be taken any that supports ISP) for flashing AVR chips:
 
     avrdude -p t13 -P /dev/ttyUSB0 -c avrisp -b 9600 -U flash:w:tm1637_demo.as.hex
